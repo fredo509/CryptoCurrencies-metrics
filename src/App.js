@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
+import NavBar from './components/navBar';
 
 export default function App() {
   return (
-    <p>Hello react</p>
+    <NavBar />
   );
 }
