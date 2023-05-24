@@ -1,11 +1,11 @@
 import React from 'react';
-// import HomeList from './HomeList';
+import HomeList from './HomeList';
+// import './Home.css';
 
 function HomeContainer() {
   return (
     <div className="home">
-      {/* <HomeList /> */}
-      <p>List comming soon</p>
+      <HomeList />
     </div>
   );
 }

@@ -1,7 +1,8 @@
 import React from 'react';
-// eslint-disable-next-line
-import { propTypes } from 'react-bootstrap/esm/Image';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
+// // eslint-disable-next-line
+// import { FaArrowRight } from 'react-icons/fa';
 
 const HomeItem = (props) => {
   const { crypto } = props;
@@ -38,7 +39,7 @@ const HomeItem = (props) => {
         <Link
           to={`/details/${id}`}
         >
-          <icon className="fontIcon" />
+          {/* <FaArrowRight className="fontIcon" /> */}
         </Link>
       </div>
     </li>
@@ -46,13 +47,13 @@ const HomeItem = (props) => {
 };
 
 HomeItem.propTypes = {
-  crypto: propTypes.shape({
-    id: propTypes.string.isRequired,
-    name: propTypes.string.isRequired,
-    symbol: propTypes.string.isRequired,
-    price: propTypes.number.isRequired,
-    img: propTypes.string.isRequired,
-    rank: propTypes.number.isRequired,
+  crypto: PropTypes.shape({
+    id: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    symbol: PropTypes.string.isRequired,
+    price: PropTypes.number.isRequired,
+    img: PropTypes.string.isRequired,
+    rank: PropTypes.number.isRequired,
   }).isRequired,
 };
 
