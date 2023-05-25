@@ -1,17 +1,22 @@
 import React from 'react';
 import './App.css';
-import { Routes, Route } from 'react-router-dom';
-import Navbar from './components/navBar';
-import HomeContainer from './components/HomeContainer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomeContainer from './components/Home/HomeContainer';
+import DetailsContainer from './components/Details/DetailsContainer';
+import Navigation from './components/Navigation/Navigation';
 
-export default function App() {
+function App() {
   return (
-    <div>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<HomeContainer />} />
-        <Route exact path="myprofile" element={<details />} />
-      </Routes>
+    <div className="App">
+      <Router>
+        <Navigation />
+        <Routes>
+          <Route exact path="/" element={<HomeContainer />} />
+          <Route path="/details/:id" element={<DetailsContainer />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
+
+export default App;
