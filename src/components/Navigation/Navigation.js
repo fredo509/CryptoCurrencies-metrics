@@ -1,8 +1,10 @@
 import React from 'react';
 import { Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-// import { FaLessThan, FaMicrophone } from 'react-icons/fa';
-// import { FiSettings } from 'react-icons/fi';
+// eslint-disable-next-line
+import { FaLessThan, FaMicrophone } from 'react-icons/fa';
+// eslint-disable-next-line
+import { FiSettings } from 'react-icons/fi';
 import './Navigation.css';
 
 const Navigation = () => {
@@ -18,7 +20,7 @@ const Navigation = () => {
         <ul className="navLinks">
           <li>
             <Link to="/" style={iconStyle}>
-              {/* <FaLessThan className="lessthan" style={iconStyle} /> */}
+              <FaLessThan className="lessthan" style={iconStyle} />
               Home
             </Link>
           </li>
@@ -27,8 +29,8 @@ const Navigation = () => {
           </li>
           <li className="headerList">
             <div className="icons-class">
-              {/* <FaMicrophone style={iconStyle} /> */}
-              {/* <FiSettings style={iconStyle} /> */}
+              <FaMicrophone style={iconStyle} />
+              <FiSettings style={iconStyle} />
             </div>
           </li>
         </ul>
