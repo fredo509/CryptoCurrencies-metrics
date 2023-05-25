@@ -37,7 +37,6 @@ a:hover,
 
 .home {
   background-image: url('https://wallpapercave.com/wp/wp4678541.jpg');
-
 }
 
 .homeItem {
@@ -68,10 +67,5 @@ img {
   img {
     width: 2.2rem;
     height: 2.2rem;
-  }
-
-  .listItem,
-  .fontIcon {
-    color: ;
   }
 }
