@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import HomeItem from './HomeItem';
-import { fetchCoins } from '../Redux/Crypto/CryptoSlice';
+import { fetchCoins } from '../../Redux/Crypto/CryptoSlice';
 // import Search from './Search';
 
 const HomeList = () => {

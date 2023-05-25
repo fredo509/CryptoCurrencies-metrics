@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-// import { FaArrowRight } from 'react-icons/fa';
+// eslint-disable-next-line
+import { FaArrowRight } from 'react-icons/fa';
 
 const HomeItem = (props) => {
   const { crypto } = props;
@@ -38,7 +39,7 @@ const HomeItem = (props) => {
         <Link
           to={`/details/${id}`}
         >
-          {/* <FaArrowRight className="fontIcon" /> */}
+          <FaArrowRight className="fontIcon" />
         </Link>
       </div>
     </li>
