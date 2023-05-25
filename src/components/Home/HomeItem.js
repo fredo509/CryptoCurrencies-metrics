@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-// eslint-disable-next-line
 import { FaArrowRight } from 'react-icons/fa';
 
 const HomeItem = (props) => {
