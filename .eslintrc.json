@@ -21,16 +21,16 @@
     "react"
   ],
   "rules": {
-    // "react/jsx-filename-extension": [
-    //   "never",
-    //   {
-    //     "extensions": [
-    //       ".js",
-    //       ".jsx"
-    //     ]
-    //   }
-    // ],
-    "react/react-in-jsx-scope": "off",
+    "react/jsx-filename-extension": [
+      "off",
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "react/react-in-jsx-scope": "warn",
     "import/no-unresolved": "off",
     "no-shadow": "off"
   },
