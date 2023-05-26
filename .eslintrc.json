@@ -19,22 +19,34 @@
     "plugin:react-hooks/recommended"
   ],
   "plugins": [
-    "react"
+    "react",
+    "import"
   ],
-  // "rules": {
-  //   "react/jsx-filename-extension": [
-  //     "warn",
-  //     {
-  //       "extensions": [
-  //         ".js",
-  //         ".jsx"
-  //       ]
-  //     }
-  //   ],
-  //   "react/react-in-jsx-scope": "off",
-  //   "import/no-unresolved": "off",
-  //   "no-shadow": "off"
-  // },
+  "rules": {
+    "react/jsx-filename-extension": [
+      "warn",
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "import/extensions": [
+      "error",
+      "always",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
+    
+    "react/react-in-jsx-scope": "off",
+    "import/no-unresolved": "off",
+    "no-shadow": "off"
+  },
   "overrides": [
     {
       // feel free to replace with your preferred file pattern - eg. 'src/**/*Slice.js' or 'redux/**/*Slice.js'
