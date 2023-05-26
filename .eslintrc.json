@@ -22,7 +22,7 @@
   ],
   "rules": {
     "react/jsx-filename-extension": [
-      "off",
+      "warn",
       {
         "extensions": [
           ".js",
@@ -30,7 +30,7 @@
         ]
       }
     ],
-    "react/react-in-jsx-scope": "warn",
+    "react/react-in-jsx-scope": "off",
     "import/no-unresolved": "off",
     "no-shadow": "off"
   },
