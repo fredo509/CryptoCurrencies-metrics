@@ -7,8 +7,7 @@
   "parser": "@babel/eslint-parser",
   "parserOptions": {
     "ecmaFeatures": {
-      "jsx": true,
-      "js": true
+      "jsx": true
     },
     "ecmaVersion": 2018,
     "sourceType": "module"
@@ -34,7 +33,7 @@
     ],
     "import/extensions": [
       "error",
-      "always",
+      "never",
       {
         "js": "never",
         "jsx": "never",
@@ -42,7 +41,7 @@
         "tsx": "never"
       }
     ],
-    
+
     "react/react-in-jsx-scope": "off",
     "import/no-unresolved": "off",
     "no-shadow": "off"
