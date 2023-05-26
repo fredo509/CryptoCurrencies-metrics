@@ -1,9 +1,7 @@
 import React from 'react';
 import { Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-// eslint-disable-next-line
 import { FaLessThan, FaMicrophone } from 'react-icons/fa';
-// eslint-disable-next-line
 import { FiSettings } from 'react-icons/fi';
 import './Navigation.css';
 
