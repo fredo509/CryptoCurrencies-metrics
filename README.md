@@ -87,7 +87,7 @@ Redux
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](crypto-metric-currencies.netlify.app)
+- [Live Demo Link](https://crypto-metric-currencies.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
