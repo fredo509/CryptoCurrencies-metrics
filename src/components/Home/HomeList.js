@@ -20,6 +20,7 @@ const HomeList = () => {
 
   useEffect(() => {
     dispatch(fetchCoins());
+    // eslint-disable-next-line
   }, [dispatch, fetchCoins]);
 
   return (
