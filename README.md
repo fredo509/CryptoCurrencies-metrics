@@ -16,6 +16,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -37,8 +38,7 @@
 
 
 
-**[ Cryptocurrencies-Metrics ]** this project provide users a Reactapp. Where Users can access a list of Rockets and Missions. User can interact with this app, they can add Join a mission and also reserve a rocket.
-
+**[ Cryptocurrencies-Metrics ]** This is a mobile web application used to check a list of crypto metrics. It is created using the coinstats API. The webapp have several pages which includes the "Home page" with a list of items that could be filtered by some parameters; in the project, it's a list of metrics that can be filtered by the coin name and a "Details page" with more information about a selected coin.
 ## 🛠 Built With <a name="built-with"></a>
 HTML
 CSS
@@ -72,8 +72,7 @@ Redux
 <details>
   <summary>APIs</summary>
   <ul>
-      <li><a href="https://api.spacexdata.com/v3/missions">Missions API</a></li>
-    <li><a href="https://api.spacexdata.com/v4/rockets">Rockets API</a></li>
+      <li><a href="'https://api.coinstats.app/public/v1/coins'">Coinstats API</a></li>
   </ul>
 </details>
 
@@ -81,15 +80,16 @@ Redux
 
 ### Key Features <a name="key-features"></a>
 
-- **[User can see list of missions]**
-- **[User can see list of rockets]**
-- **[Allow user to reserve a rocket]**
-- **[Allow user to join a mission]**
-- **[Display list of mission joined and rocket reserved]**
+- **[User can see list of crypto ]**
+- **[User can get more details about a crypto selected]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Live Demo <a name="live-demo"></a>
 
+- [Live Demo Link](comming soon)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -113,7 +113,7 @@ In order to run this project you need:
 Clone this repository to your desired folder or download the Zip folder:
 
 ```
-https://github.com/dazehinn/Space-Travelers-Hub.git
+https://github.com/fredo509/CryptoCurrencies-metrics.git
 ```
 
 - Navigate to the location of the folder in your machine:
@@ -165,21 +165,11 @@ You can deploy this project using: GitHub Pages,
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
-
-## 👥 Author <a name="authors"></a>
-
-👤 **Nshanji Hilary**
-- GitHub: [dazehinn](https://github.com/dazehinn)
-- Twitter: [@HilaryNdzi](https://twitter.com/hilaryndzi)
-- LinkedIn: [Nshanji Hilary Ndzi](https://www.linkedin.com/in/nshanji-hilary-ndzi)
-
-
-
 👤 **Fredo Fleur**
 
 - GitHub: [fredo509](https://github.com/fredo509)
 - Twitter: [@Fredo_st_fleur](https://twitter.com/Fredo_st_fleur?t=kXdEx7GqmngfCYId_vu8Tg&s=09)
-- LinkedIn: [fredo-st-fleur](https://www.linkedin.com/in/fredo-st-fleur-0b41a122a)
+- LinkedIn: [fredo-st-fleur](https://www.linkedin.com/in/fredo-st-fleur)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -213,7 +203,8 @@ If you like this project give me a star ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I want to thank my coding partner Fredo st fleur who help me a lot to complete this project.
+- Inspiration [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
+- Microverse student community
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
