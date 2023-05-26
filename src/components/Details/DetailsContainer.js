@@ -14,6 +14,7 @@ function DetailsContainer() {
 
   useEffect(() => {
     dispatch(setCoinsReducer(id));
+    // eslint-disable-next-line
   }, []);
 
   const cryptos = useSelector((state) => state.crypto);
