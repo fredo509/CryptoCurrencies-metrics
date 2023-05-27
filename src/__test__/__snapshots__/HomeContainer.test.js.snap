@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test HomeContainer renders correctly 1`] = `
+<div
+  className="home"
+>
+  <ul
+    className="homeList"
+  />
+</div>
+`;
